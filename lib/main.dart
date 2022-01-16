@@ -62,6 +62,24 @@ class HomePage extends StatelessWidget {
                                 fontSize: 40.0,
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold)),
+                            Text("(cm)",style: TextStyle(
+                                fontSize: 20.0,
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold)),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 70.0),
+                              child: TextField(
+                                textAlign: TextAlign.center,
+                                controller: _controller,
+                                decoration: InputDecoration(
+                                  filled: true,
+                                  fillColor: Colors.white.withOpacity(0.7),
+                                  border: OutlineInputBorder(),
+                                  hintText: 'ENTER LENGHT',
+
+                                ),
+                              ),
+                            ),
                           ],
                         ),
                         color: Colors.white,
@@ -79,6 +97,25 @@ class HomePage extends StatelessWidget {
                                 fontSize: 40.0,
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold)),
+                            Text("(cm)",style: TextStyle(
+                                fontSize: 20.0,
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold)),
+
+                            Padding(
+                              padding: const EdgeInsets.only(top: 70.0),
+                              child: TextField(
+                                textAlign: TextAlign.center,
+                                controller: _controller,
+                                decoration: InputDecoration(
+                                  filled: true,
+                                  fillColor: Colors.white.withOpacity(0.7),
+                                  border: OutlineInputBorder(),
+                                  hintText: 'ENTER GIRTH',
+
+                                ),
+                              ),
+                            ),
                           ],
                         ),
                         color: Colors.white,
